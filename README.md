@@ -1,4 +1,5 @@
 TEST FETCH
+TEST PULL
 
 # Mini-Project for Fundamentals of Machine Learning Course
 ![background](./materials/ai_wp.jpg)
