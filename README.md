@@ -1,3 +1,5 @@
+TEST FETCH
+
 # Mini-Project for Fundamentals of Machine Learning Course
 ![background](./materials/ai_wp.jpg)
 This repository contains the code and data for a mini-project on facial expression recognition using machine learning algorithms.
