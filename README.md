@@ -24,3 +24,11 @@ interesting findings
 - Khi áp dụng cho cả tập thì cho vào hàm show_img sẽ ra ảnh khác so với xử lý từng ảnh và có vài ảnh bị trùng (mặc dù cùng một hàm show_img)
 
 cho nên là áp dụng cả 2 cách xử lý tập để cho vào model, sẽ dựa vào điểm số để đánh giá cách làm nào tốt hơn
+
+update: loại data đầu vào cho model theo cách 2 là xử lý cho từng ảnh vì tốn nhiều thời gian, thao tác nhiều hơn nhưng không thu lại được gì nhiều. Cụ thể điểm số không đỏi  mà còn thấp hơn
+
+update: cảm ơn Tuấn đã viết phần kết luận chi tiết, Khoa chuyển lại thành tiếng Anh
+
+update: sử dụng gridsearchcv quá mất thời gian cho các model (có model thử trên 540p vẫn chưa xong) nên hướng xử lý khác là tách nhỏ model ra để chạy
+
+update: mặc đù đã đủ 4 model nhưng nhóm vẫn muốn thử thêm naive bayes, hi vọng sẽ ra kết quả tốt hơn
