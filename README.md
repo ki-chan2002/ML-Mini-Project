@@ -3,42 +3,24 @@
 This repository contains the code and data for a mini-project on facial expression recognition using machine learning algorithms.
 
 ## 📑 Project Policy
-- Team: group should consist of 3-4 students.
+
 
     |No.| Student Name    | Student ID |
     | --------| -------- | ------- |
-    |1|||
-    |2|||
-    |3|||
-    |4|||
+    |1|Ngô Châu Xuân Hà|20110173|
+    |2|Võ Quang Tuấn|21110438|
+    |3|Trần Đăng Khoa|20280054|
+    |4|Nguyễn Quốc Dương|20280021|
 
-- The submission deadline is strict: **11:59 PM** on **June 22nd, 2024**. Commits pushed after this deadline will not be considered.
+Phân công công việc (dự kiến)
+Hà: phần 1 question 2, chuẩn bị data source cho phần 3, hoàn thành MLP và Logistic Regression
+Tuấn: phần 2 question 2 (do chưa sử dụng thạo github nên Hà commit hộ). Viết đánh giá
+Khoa: thao tác chính liên quan đến github (merge,...). áp model mẫu cho cho phần 3 dựa theo data source và sử dụng gridsearch
+Dương: hỗ trợ Khoa áp model mẫu cho phần 3 dựa theo data source
 
-## 📦 Project Structure
+interesting findings
+- Tập này có 2 cách tiếp cận khi scale và pca: áp dụng cho từng ảnh một và áp dụng cho cả tập
+- Khi áp dụng cho từng ảnh thì cho vào hàm show_img ảnh tuy bị bể do đã qua xử lý nhưng vẫn giữ được nét đặc trưng
+- Khi áp dụng cho cả tập thì cho vào hàm show_img sẽ ra ảnh khác so với xử lý từng ảnh và có vài ảnh bị trùng (mặc dù cùng một hàm show_img)
 
-The repository is organized into the following directories:
-
-- **/data**: This directory contains the facial expression dataset. You'll need to download the dataset and place it here before running the notebooks. (Download link provided below)
-- **/notebooks**: This directory contains the Jupyter notebook ```EDA.ipynb```. This notebook guides you through exploratory data analysis (EDA) and classification tasks.
-
-## ⚙️ Usage
-
-This project is designed to be completed in the following steps:
-
-1. **Fork the Project**: Click on the ```Fork``` button on the top right corner of this repository, this will create a copy of the repository in your own GitHub account. Complete the table at the top by entering your team member names.
-
-2. **Download the Dataset**: Download the facial expression dataset from the following [link](https://mega.nz/file/foM2wDaa#GPGyspdUB2WV-fATL-ZvYj3i4FqgbVKyct413gxg3rE) and place it in the **/data** directory:
-
-3. **Complete the Tasks**: Open the ```notebooks/EDA.ipynb``` notebook in your Jupyter Notebook environment. The notebook is designed to guide you through various tasks, including:
-    
-    1. Prerequisite
-    2. Principle Component Analysis
-    3. Image Classification
-    4. Evaluating Classification Performance 
-
-    Make sure to run all the code cells in the ```EDA.ipynb``` notebook and ensure they produce output before committing and pushing your changes.
-
-5. **Commit and Push Your Changes**: Once you've completed the tasks outlined in the notebook, commit your changes to your local repository and push them to your forked repository on GitHub.
-
-
-Feel free to modify and extend the notebook to explore further aspects of the data and experiment with different algorithms. Good luck.
+cho nên là áp dụng cả 2 cách xử lý tập để cho vào model, sẽ dựa vào điểm số để đánh giá cách làm nào tốt hơn
